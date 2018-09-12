@@ -1,0 +1,5 @@
+#encoding=UTF-8
+#version=1
+net.sf.eclipsecs.checkstyle.source,8.7.0.201801131309,plugins/net.sf.eclipsecs.checkstyle.source_8.7.0.201801131309.jar,-1,false
+net.sf.eclipsecs.core.source,8.7.0.201801131309,plugins/net.sf.eclipsecs.core.source_8.7.0.201801131309.jar,-1,false
+net.sf.eclipsecs.ui.source,8.7.0.201801131309,plugins/net.sf.eclipsecs.ui.source_8.7.0.201801131309.jar,-1,false

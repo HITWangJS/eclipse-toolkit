@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='D:\Program Files\eclipse\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1536755593409'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='8'>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.checkstyle.source' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='1062634'/>
+        <property name='download.size' value='1062634'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.checkstyle.source_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.checkstyle.source_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.doc' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='3151731'/>
+        <property name='download.size' value='3151731'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.doc_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.doc_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.ui' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='2205923'/>
+        <property name='download.size' value='2205923'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.ui_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.ui_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.core' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='530973'/>
+        <property name='download.size' value='530973'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.core_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.core_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.core.source' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='203390'/>
+        <property name='download.size' value='203390'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.core.source_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.core.source_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.ui.source' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='245335'/>
+        <property name='download.size' value='245335'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.ui.source_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.ui.source_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.branding' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='5142'/>
+        <property name='download.size' value='5142'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.branding_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.branding_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.checkstyle' version='8.7.0.201801131309'>
+      <properties size='2'>
+        <property name='artifact.size' value='9683965'/>
+        <property name='download.size' value='9683965'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/Program%20Files/eclipse/plugins/net.sf.eclipsecs.checkstyle_8.7.0.201801131309.jar'/>
+        <property name='file.name' value='D:\Program Files\eclipse\plugins\net.sf.eclipsecs.checkstyle_8.7.0.201801131309.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
